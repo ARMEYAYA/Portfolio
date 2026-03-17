@@ -1,0 +1,649 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+.intro-container{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+
+.intro-greet{
+    font-size: 70px;
+    margin: 0;
+}
+.intro-profile{
+    width: 220px;
+    border-radius: 120px;
+}
+.intro-description{
+    font-size: 23px;
+    margin-top: 10px;
+    color: rgb(97, 97, 97);
+}
+
+
+.link-container{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    font-size: 19px;
+    width: 130px;
+    height: 30px;
+    padding-top: 7px;
+    text-align: center;
+}
+.link-fb{
+    color: rgb(59, 89, 152);
+    border: 2px solid rgb(59, 89, 152);
+    border-radius: 12px;
+    transition: background-color 0.2s, color 0.2s, opacity 0.2;
+}
+.link-fb:hover{
+    background-color: rgb(59, 89, 152);
+    color: white;
+}
+.link-fb:active{
+    opacity: 0.5;
+}
+
+.link-linkedin{
+    color: white;
+    background-color: rgb(0, 119, 181);
+    border-radius: 12px;
+     border: 2px solid transparent;
+    transition: background-color 0.2s, color 0.2s, opacity 0.2;
+}
+.link-linkedin:hover{
+    color:  rgb(0, 119, 181);
+    background-color: white;
+    border: 2px solid  rgb(0, 119, 181);
+}
+.link-linkedin:active{
+    opacity: 0.4;
+}
+
+.link-github{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 12px;
+    transition: background-color 0.2s, color 0.2s, opacity 0.2;
+}
+.link-github:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+.link-github:active{
+    opacity: 0.5;
+}
+
+.hr1{
+    margin-top: 135px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.about-me-title{
+    font-size: 25px;
+    margin-top: 45px;
+    margin-left: 75px;
+    color: rgb(98, 98, 98);
+    margin-bottom: 120px;
+}
+
+.about-me-container p {
+    max-width: 900px;   
+    margin: 20px auto;  
+    text-align: center;
+    font-size: 35px;
+    
+}
+.academic-background{
+     max-width: 900px;   
+    margin: 20px auto;  
+    font-size: 25px;
+}
+.hobbies-section-title{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 75px;
+    color: rgb(54, 54, 54);
+    margin-bottom: 20px;
+}
+.hobbies{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hobbies-card{
+    background-color: rgba(214, 214, 214, 0.655);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s;
+}
+.hobbies-card:hover{
+    background-color: rgb(201, 201, 201);;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.hobbies p{
+    font-size: 23px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    transition: all 0.2s;
+}
+.hobbies-text{
+    max-width: 900px;   
+    margin: 20px auto;  
+    text-align: center;
+    font-size: 35px;
+}
+.hobbies video{
+    width: 600px;
+    transition: all 0.2s;
+}
+.bjj-image{
+    width: 600px;
+    transition: all 0.2s;
+}
+.hr2{
+    margin-top: 0px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.skills-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    place-items: center;
+    gap: 25px 0;
+}
+.tech{
+    background-color: rgba(214, 214, 214, 0.655);
+    width: 200px;
+    height: 300px;
+    padding: 6px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    transition:all 0.2s;  
+}
+.tech:hover{
+    background-color: rgb(201, 201, 201);
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+.tech img{
+    width: 80%;
+    height: auto;
+}
+.project-section-title{
+    font-size: 25px;
+    margin-top: 45px;
+    margin-left: 75px;
+    color: rgb(54, 54, 54);
+    margin-bottom: 40px;
+}
+
+
+.school-projects-container{
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.project-1{
+    background-color: rgba(214, 214, 214, 0.655);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 45px;
+}
+.project-1:hover{
+    background-color: rgb(201, 201, 201);;
+}
+.project-info{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.image-container {
+    height: 220px;
+    width: 1200px;
+    padding: 9px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+      
+}
+.landing-page-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    transition: all 0.2s;   
+}
+.landing-page-image:hover{
+    margin-bottom: 13px;
+}
+
+.project-description-text{
+    width: 1500px;
+    height: 220px;
+    padding: 9px;
+}
+
+.project-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 4px;
+    transition: all 0.2s;
+}
+.yapper{
+    margin-top: 0;
+    font-size: 18px;
+    transition: all 0.2s;
+}
+
+.project-description-text:hover .project-title{
+    margin-top: 0px;
+}
+.video-section{
+    width: 100%;
+    height: 400px;
+    margin-top: 18px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;   
+}
+.video-section video{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+    margin-top: 10px;
+     transition: all 0.2s;      
+}
+.project-1 video:hover{
+    margin-bottom: 12px;
+}
+
+.soft-skills-container{
+    padding-left: 130px;
+    padding-right: 100px;
+}
+.soft-skills-container p{
+    font-size: 30px;
+}
+.email-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9; 
+    border-top: 2px solid #ccc;
+    font-family: 'Arial', sans-serif;
+}
+
+.email-section h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #d23e3e; 
+}
+
+.email-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.email-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    max-width: 500px; 
+    margin: 0 auto;
+}
+
+.email-section input,
+.email-section textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.email-section textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.email-section button {
+    padding: 15px;
+    background-color: #d23e3e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.email-section button:hover {
+    background-color: #b83232;
+}
+
+
+/* =====================
+   RESPONSIVE STYLES
+   ===================== */
+
+/* Large tablets / small desktops (max 1024px) */
+@media (max-width: 1024px) {
+    .intro-greet {
+        font-size: 48px;
+        padding: 0 20px;
+    }
+
+    .skills-grid {
+        grid-template-columns: auto auto auto;
+    }
+
+    .tech {
+        width: 160px;
+        height: 240px;
+    }
+
+    .image-container {
+        width: 400px;
+        height: 180px;
+    }
+
+    .project-description-text {
+        width: auto;
+        flex: 1;
+        height: auto;
+    }
+
+    .soft-skills-container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .soft-skills-container p {
+        font-size: 24px;
+    }
+
+    .about-me-container p {
+        font-size: 28px;
+        padding: 0 20px;
+    }
+
+    .hobbies-text {
+        font-size: 28px;
+        padding: 0 20px;
+    }
+
+    .hobbies video,
+    .bjj-image {
+        width: 480px;
+    }
+}
+
+/* Tablets (max 768px) */
+@media (max-width: 768px) {
+    .intro-container {
+        margin-top: 60px;
+        padding: 0 20px;
+    }
+
+    .intro-greet {
+        font-size: 32px;
+    }
+
+    .intro-description {
+        font-size: 18px;
+    }
+
+    .hr1 {
+        margin-top: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .hr2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about-me-title,
+    .hobbies-section-title,
+    .project-section-title {
+        margin-left: 30px;
+        font-size: 22px;
+    }
+
+    .about-me-container p {
+        font-size: 22px;
+        padding: 0 20px;
+    }
+
+    .about-me-title {
+        margin-bottom: 60px;
+    }
+
+    .academic-background {
+        padding: 0 30px;
+        font-size: 20px;
+    }
+
+    .hobbies-text {
+        font-size: 22px;
+        padding: 0 20px;
+    }
+
+    .hobbies video,
+    .bjj-image {
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .hobbies-card {
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    .skills-grid {
+        grid-template-columns: auto auto;
+        gap: 20px 0;
+    }
+
+    .tech {
+        width: 140px;
+        height: 200px;
+    }
+
+    .school-projects-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .project-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 200px;
+    }
+
+    .project-description-text {
+        width: 100%;
+        height: auto;
+        padding: 9px 0;
+    }
+
+    .video-section {
+        height: 260px;
+    }
+
+    .soft-skills-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .soft-skills-container p {
+        font-size: 20px;
+    }
+
+    .link-container {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 40px;
+    }
+}
+
+/* Mobile phones (max 480px) */
+@media (max-width: 480px) {
+    .intro-container {
+        margin-top: 40px;
+        padding: 0 15px;
+    }
+
+    .intro-greet {
+        font-size: 24px;
+    }
+
+    .intro-profile {
+        width: 100px;
+    }
+
+    .intro-description {
+        font-size: 15px;
+    }
+
+    .link-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    a {
+        width: 160px;
+    }
+
+    .about-me-title,
+    .hobbies-section-title,
+    .project-section-title {
+        margin-left: 15px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about-me-title {
+        margin-bottom: 40px;
+    }
+
+    .about-me-container p {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+    .academic-background {
+        padding: 0 15px;
+        font-size: 17px;
+    }
+
+    .hobbies-text {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+    .hobbies p {
+        font-size: 18px;
+    }
+
+    .hobbies video,
+    .bjj-image {
+        width: 100%;
+    }
+
+    .hobbies-card {
+        width: 95%;
+    }
+
+    .skills-grid {
+        grid-template-columns: auto auto;
+        gap: 15px 0;
+    }
+
+    .tech {
+        width: 120px;
+        height: 170px;
+    }
+
+    .school-projects-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .project-title {
+        font-size: 20px;
+    }
+
+    .yapper {
+        font-size: 15px;
+    }
+
+    .image-container {
+        height: 160px;
+    }
+
+    .video-section {
+        height: 210px;
+    }
+
+    .soft-skills-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .soft-skills-container p {
+        font-size: 17px;
+    }
+
+    .email-section h3 {
+        font-size: 22px;
+    }
+
+    .hr1 {
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .hr2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
